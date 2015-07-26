@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SLCursorOffset"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "An category to calculate textField cursor offset"
   s.description      = <<-DESC
                        An category to calculate textField cursor offset
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "LiuShulong" => "bigfish_liu@126.com" }
-  s.source           = { :git => "https://github.com/LiuShulong/SLCursorOffset.git", :tag => 1.0.0 }
+  s.source           = { :git => "https://github.com/LiuShulong/SLCursorOffset.git", :tag => s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
