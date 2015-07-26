@@ -10,14 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "SLCursorOffset"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SLCursorOffset."
+  s.summary          = "An category to calculate textField cursor offset"
   s.description      = <<-DESC
-                       An optional longer description of SLCursorOffset
-
+                       An category to calculate textField cursor offset
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SLCursorOffset"
+  s.homepage         = "https://github.com/LiuShulong/SLCursorOffset"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "LiuShulong" => "bigfish_liu@126.com" }
