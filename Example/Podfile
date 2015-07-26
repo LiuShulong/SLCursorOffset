@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SLCursorOffset_Example', :exclusive => true do
+  pod "SLCursorOffset", :path => "../"
+end
+
+target 'SLCursorOffset_Tests', :exclusive => true do
+  pod "SLCursorOffset", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
