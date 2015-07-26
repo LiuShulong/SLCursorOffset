@@ -6,21 +6,9 @@
 // project.
 
 
-// Expecta
-#define COCOAPODS_POD_AVAILABLE_Expecta
-#define COCOAPODS_VERSION_MAJOR_Expecta 1
-#define COCOAPODS_VERSION_MINOR_Expecta 0
-#define COCOAPODS_VERSION_PATCH_Expecta 2
-
 // SLCursorOffset
 #define COCOAPODS_POD_AVAILABLE_SLCursorOffset
 #define COCOAPODS_VERSION_MAJOR_SLCursorOffset 0
 #define COCOAPODS_VERSION_MINOR_SLCursorOffset 1
 #define COCOAPODS_VERSION_PATCH_SLCursorOffset 0
-
-// Specta
-#define COCOAPODS_POD_AVAILABLE_Specta
-#define COCOAPODS_VERSION_MAJOR_Specta 1
-#define COCOAPODS_VERSION_MINOR_Specta 0
-#define COCOAPODS_VERSION_PATCH_Specta 3
 

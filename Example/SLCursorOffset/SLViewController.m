@@ -7,6 +7,7 @@
 //
 
 #import "SLViewController.h"
+#import <SLCursorOffset/UITextField+CalculateCursorOffset.h>
 
 @interface SLViewController ()
 
@@ -33,7 +34,10 @@
 #pragma mark - click
 
 - (IBAction)click:(id)sender {
-//    self.constraint.constant = [self.textField cursorOffset] + self.textField.frame.origin.x;
+    
+    NSLog(@"offset:%@",@([self.textField cursorOffset]));
+    
+    self.constraint.constant = [self.textField cursorOffset] + self.textField.frame.origin.x;
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event

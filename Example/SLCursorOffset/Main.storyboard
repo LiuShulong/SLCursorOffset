@@ -49,9 +49,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Eiq-0u-j5e" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="07U-VV-fE4"/>
                             <constraint firstItem="Eiq-0u-j5e" firstAttribute="top" secondItem="eKe-8j-yq9" secondAttribute="bottom" id="C9R-IJ-uhl"/>
                             <constraint firstAttribute="trailing" secondItem="eKe-8j-yq9" secondAttribute="trailing" constant="40" id="CEG-p2-B9K"/>
+                            <constraint firstItem="Eiq-0u-j5e" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="40" id="JYR-1l-SM7"/>
                             <constraint firstItem="eKe-8j-yq9" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="RBF-CT-39h"/>
                             <constraint firstItem="eKe-8j-yq9" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="40" id="WSU-Mp-NI5"/>
                             <constraint firstItem="eKe-8j-yq9" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="111" id="X2f-kt-6SK"/>
@@ -60,7 +60,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="constraint" destination="07U-VV-fE4" id="xhi-cv-zFN"/>
+                        <outlet property="constraint" destination="JYR-1l-SM7" id="KRh-S3-hTy"/>
                         <outlet property="textField" destination="eKe-8j-yq9" id="1RY-TP-PYL"/>
                     </connections>
                 </viewController>

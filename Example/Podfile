@@ -8,6 +8,4 @@ end
 target 'SLCursorOffset_Tests', :exclusive => true do
   pod "SLCursorOffset", :path => "../"
 
-  pod 'Specta'
-  pod 'Expecta'
 end
