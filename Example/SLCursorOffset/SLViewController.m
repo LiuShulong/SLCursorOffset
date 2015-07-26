@@ -10,6 +10,9 @@
 
 @interface SLViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraint;
+
 @end
 
 @implementation SLViewController
@@ -25,5 +28,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - click
+
+- (IBAction)click:(id)sender {
+//    self.constraint.constant = [self.textField cursorOffset] + self.textField.frame.origin.x;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.textField resignFirstResponder];
+}
+
 
 @end

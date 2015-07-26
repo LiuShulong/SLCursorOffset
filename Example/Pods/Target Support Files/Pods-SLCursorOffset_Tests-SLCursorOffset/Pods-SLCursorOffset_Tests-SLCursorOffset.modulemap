@@ -1,0 +1,6 @@
+framework module SLCursorOffset {
+  umbrella header "Pods-SLCursorOffset_Tests-SLCursorOffset-umbrella.h"
+
+  export *
+  module * { export * }
+}
